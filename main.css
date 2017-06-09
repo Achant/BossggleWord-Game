@@ -1,0 +1,122 @@
+html {
+    font-family: 'futura', sans-serif;
+    display: inline-block;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+#stats-column {
+	background-color: #66CDAA;
+	width: 25vw;
+	text-align: right;
+	padding: 20px;
+
+}
+
+.points-row {
+	display: flex;
+	justify-content: space-between;
+	margin: 8px;
+  position: absolute;
+
+}
+
+#title-box {
+	height: 25vh;
+	display: flex;
+
+}
+
+#score-total {
+  position: absolute;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+	border-bottom-width: 4px;
+  left: : 20px;
+	bottom: 200px;
+}
+
+a {
+	position: absolute;
+	bottom: 18px;
+	left: 25px;
+}
+
+#game-column {
+	background-color: #3CB371;
+	width: 80vw;
+	display: flex;
+	align-items: left;
+}
+
+#game-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 2em;
+}
+
+#word {
+	font-size: 60px;
+	height: 2em;
+	border-color: black;
+	border-width: 6px;
+	border-style: solid;
+	width: 5em;
+	margin: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#buttons-div {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	font-size: 25px;
+	min-height: 2em;
+	width: 4em;
+	border-radius: 1em;
+}
+
+#submit {
+	background-color: #4169E1;
+}
+
+#clear {
+	background-color: #BC8F8F;
+}
+
+#reset {
+	background-color: #FF0000;
+}
+
+.letter {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 1.5em;
+	width: 1.5em;
+	border-style: solid;
+	border-width: 4px;
+	margin: 4px;
+	font-size: 60px;
+	background-color: #9ACD32;
+	border-color: black;
+}
+
+.selected-letter {
+	background-color: orange;
+	color: black;
+	border-color: black;
+}

@@ -1,0 +1,99 @@
+<html>
+
+<head>
+	<title>Bossggle</title>
+	<link rel="stylesheet" href="main.css" />
+	<script src="https://cdn.rawgit.com/tannerwelsh/dcd33611c1bc615fd5a1c8cadc05d1b2/raw/470cde9d72927fef717f354b3ba3718a0aaabb99/basicWords.js" charset="utf-8"></script>
+
+</head>
+
+<body class="row">
+
+	<!--Left Column-->
+	<div id="stats-column">
+
+		<div id=title-box class="column">
+			<h1>BOSSGGLE</h1>
+			<h2>Instructions:</h2>
+
+			<h3>Click the letters! Use only words in the Bossggle dictionary.</h3>
+			<style>
+			h3{
+				font-size: 12px
+			}
+			</style>
+			<div>
+				<div>Time left:</div>
+				<div id="timer">00:60</div>
+			</div>
+		</div>
+
+		<div id="score-total" class="points-row">
+			<h3>Score= </h3>
+			<h3 id="score">0</h3>
+		</div>
+		<div id="score-board">
+		</div>
+		<a href="https://github.com/Achant/BossggleWord-Game">View GitHub repository here!</a>
+
+	</div>
+
+	<!--Right Column-->
+	<div id="game-column" class="column">
+
+		<div id="game-top">
+			<h1 id="word"></h1>
+			<div id="buttons-div">
+				<button id="submit">Submit</button>
+				<button id="clear">Clear</button>
+				<button id="reset">Reset</button>
+
+			</div>
+		</div>
+
+		<div class="game-board">
+        <div class="row">
+          <button id="1" class="letter letter-default">A</button>
+          <button id="2" class="letter letter-default">B</button>
+          <button id="3" class="letter letter-default">C</button>
+          <button id="4" class="letter letter-default">D</button>
+          <button id="5" class="letter letter-default">E</button>
+          <button id="6" class="letter letter-default">F</button>
+          <button id="7" class="letter letter-default">G</button>
+        </div>
+        <div class="row">
+          <button id="8" class="letter letter-default">H</button>
+          <button id="9" class="letter letter-default">I</button>
+          <button id="10" class="letter letter-default">J</button>
+          <button id="11" class="letter letter-default">K</button>
+          <button id="12" class="letter letter-default">L</button>
+          <button id="13" class="letter letter-default">M</button>
+          <button id="14" class="letter letter-default">N</button>
+        </div>
+        <div class="row">
+          <button id="15" class="letter letter-default">O</button>
+          <button id="16" class="letter letter-default">P</button>
+          <button id="13" class="letter letter-default">Q</button>
+          <button id="14" class="letter letter-default">R</button>
+          <button id="15" class="letter letter-default">S</button>
+          <button id="16" class="letter letter-default">T</button>
+          <button id="13" class="letter letter-default">U</button>
+        </div>
+      <div class="row">
+          <button id="14" class="letter letter-default">V</button>
+          <button id="15" class="letter letter-default">W</button>
+          <button id="16" class="letter letter-default">X</button>
+          <button id="13" class="letter letter-default">Y</button>
+          <button id="14" class="letter letter-default">Z</button>
+      </div>
+
+
+  </div>
+
+
+
+	<script type="text/javascript" src="bossggle.js"></script>
+
+</body>
+
+</html>
