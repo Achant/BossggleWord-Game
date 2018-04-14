@@ -1,7 +1,7 @@
 # BossggleWord-Game
 Stage 1
 
- [X]Repo is created on GitHub.
+ - [X] Repo is created on GitHub.
  [X]The site looks exactly the same (or do you mean similar) as in the mockups (except without the same words/letters/points - those are just placeholders).
  [X]Your repo includes the files: index.html, main.css, and bossggle.js.
 Stage 2
